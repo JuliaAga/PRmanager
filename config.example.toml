@@ -1,0 +1,4 @@
+# Authentication uses your existing gh CLI login.
+repositories = [
+  "JuliaAga/pr-test-python",
+]

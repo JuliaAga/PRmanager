@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-pr-manager"
+version = "0.1.0"
+description = "Local GitHub PR triage with Codex"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+pr-manager = "pr_manager.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["pr_manager*"]
